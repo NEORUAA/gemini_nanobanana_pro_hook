@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">🍌Pro Enable</string>
+    <string name="module_description">在 Gemini 所有回复的更多菜单中显示“使用 Pro 重做”。作用域请选择 Google 应用。</string>
+</resources>

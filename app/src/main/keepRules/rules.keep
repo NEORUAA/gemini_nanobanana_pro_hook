@@ -1,0 +1,2 @@
+-keep class com.neoruaa.geminihook.GeminiProHook { *; }
+-dontwarn io.github.libxposed.annotation.**

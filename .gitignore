@@ -1,0 +1,27 @@
+# Gradle and Android build artifacts
+.gradle/
+**/build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Local IDE and machine configuration
+*.iml
+/.idea/
+.project
+.settings/
+local.properties
+
+# macOS metadata and logs
+.DS_Store
+*.log
+
+# Host APKs, JADX output and local analysis files
+/gemini_workspace/
+/.local/
+
+# Signing keys and private signing configuration
+*.jks
+*.keystore
+keystore.properties
+signing.properties

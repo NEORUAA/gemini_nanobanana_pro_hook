@@ -1,0 +1,13 @@
+[versions]
+agp = "9.4.1"
+junit = "4.13.2"
+libxposed = "102.0.0"
+smali = "3.0.9"
+
+[libraries]
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+libxposed-api = { group = "io.github.libxposed", name = "api", version.ref = "libxposed" }
+smali-dexlib2 = { group = "com.android.tools.smali", name = "smali-dexlib2", version.ref = "smali" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
